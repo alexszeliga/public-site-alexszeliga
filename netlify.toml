@@ -1,0 +1,6 @@
+[build]
+  # The command Netlify runs to build your site.
+  command = "npm run build"
+  
+  # The directory of the deploy-ready HTML files and assets (Vite default is 'dist').
+  publish = "dist"
